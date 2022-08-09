@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NavBar(){
     return  <div id='topNav' className='w-full h-1/12 relative'>
-                <div className='flex justify-center select-none text-xl font-couture text-black dark:text-white'>
+                <div className='flex justify-center select-none text-xl font-biko text-black dark:text-white'>
                     <a id="cirriculum" className="transition ease-in-out duration-300 hover:cursor-pointer p-1 m-10 shadow-pre hover:shadow-box hover:text-white dark:hover:text-black">Curriculum</a>
                     <a id="miscellaneous" className="transition ease-in-out duration-300 hover:cursor-pointer p-1 m-10 shadow-pre hover:shadow-box hover:text-white dark:hover:text-black">Miscellaneous</a>
                     <a id="coop" className="transition ease-in-out duration-300 hover:cursor-pointer p-1 m-10 shadow-pre hover:shadow-box hover:text-white dark:hover:text-black">Co-op & Internships</a>

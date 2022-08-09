@@ -18,7 +18,7 @@ module.exports = {
         fade: "fade 0.15s linear",
       },
       fontFamily: {
-        caviar: "caviar",
+        biko: "biko",
       },
       keyframes: {
         fade: {

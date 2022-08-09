@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "couture";
-    src: url('../public/fonts/couture-bld.otf');
+    font-family: "biko";
+    src: url('../public/fonts/Biko_Regular.otf');
 }
