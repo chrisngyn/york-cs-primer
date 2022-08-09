@@ -26,6 +26,10 @@ module.exports = {
           "100%": { background: "transparent", color: "white" },
         },
       },
+      boxShadow: {
+        pre: "inset 0 0 0 0 white;",
+        box: "inset 300px 0 0 0 white;",
+      },
     },
   },
   plugins: [],

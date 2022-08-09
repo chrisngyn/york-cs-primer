@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "caviar";
-    src: url('../public/fonts/CaviarDreams.ttf');
+    font-family: "couture";
+    src: url('../public/fonts/couture-bld.otf');
 }
