@@ -12,18 +12,31 @@ module.exports = {
       spacing: {
         "1/12": "8.3%",
         "1/3": "33.3%",
+        "1/5": "20%",
+        "2/5": "40%",
+        "1/6": "16.7%",
+        "1/8": "12.5%",
+        "1/10": "10%",
+        "45%": "45%",
       },
       animation: {
         roll: "spin 1s",
         fade: "fade 0.15s linear",
+        fadedown: "fadedown 1s",
+        slowbounce: "slowbounce 3s infinite",
       },
       fontFamily: {
         biko: "biko",
+        couture: "couture",
       },
       keyframes: {
-        fade: {
-          "0%": { background: "white", color: "black" },
-          "100%": { background: "transparent", color: "white" },
+        fadedown: {
+          "0%": { opacity: "0", transform: "translateY(-50px)" },
+          "100%": { opacity: "100%", transform: "translateY(0)" },
+        },
+        slowbounce: {
+          "0%, 70%, 100%": { transform: "translateY(-25%)" },
+          "35%": { transform: "translateY(0%)" },
         },
       },
       boxShadow: {
