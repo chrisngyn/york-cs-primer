@@ -6,14 +6,17 @@ function App() {
   return (
     <div className="background w-screen h-screen bg-white dark:bg-darkbg">
       <NavBar></NavBar>
-      <div className='font-couture text-black dark:text-white absolute top-2/5 left-1/5 animate-fadedown'>
+      <div className='select-none font-couture text-black dark:text-white absolute top-2/5 left-1/5 animate-fadedown'>
         <a className='text-2xl'>Welcome to the</a>
         <br/>
-        <a className='text-9xl '>LSCUG</a>
+        <a className='text-9xl hover:animate-pulse'>LSCUG</a>
+        <br/>
+        <a className='text-l'>A Guide to Surviving Lassonde's Computer Science</a>
       </div>
 
-      <div className='font-biko text-black dark:text-white absolute top-45% right-1/10 w-1/3 animate-fadedown'>
-        <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac imperdiet ante. Duis a nunc purus. Ut tempor pulvinar sapien, non placerat augue ornare eget. Integer ut metus nec tortor suscipit facilisis. Morbi quis erat ac libero elementum maximus at ullamcorper sapien. Aliquam molestie nunc et faucibus tempor. Nam consequat.</a>
+      <div className='font-biko text-black text-xl dark:text-white absolute top-45% right-1/10 w-1/3 animate-fadedown'>
+        <a><strong>IMPORTANT DISCLAIMER</strong><br></br>This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
+        All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
       </div>
       <DownArrow/>
     </div>
