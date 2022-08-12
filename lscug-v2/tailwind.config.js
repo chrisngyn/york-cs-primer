@@ -4,10 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        darkbg: "#0B0C10",
+        darkbg: "#15202b",
+        darkbord: "#0b1117",
         accents: "#C3073F",
         pltxt: "#C5C6C7",
         dgrey: "#12141b",
+        offwhite: "#e6dcc3",
+        owbord: "#bfb7a3",
       },
       spacing: {
         "1/12": "8.3%",
@@ -18,6 +21,10 @@ module.exports = {
         "1/8": "12.5%",
         "1/10": "10%",
         "45%": "45%",
+        "70%": "70%",
+        "100%": "100%",
+        "91vh": "91.7vh",
+        "100vh": "100vh",
       },
       animation: {
         roll: "spin 1s",
@@ -42,6 +49,8 @@ module.exports = {
       boxShadow: {
         pre: "inset 0 0 0 0 white;",
         box: "inset 300px 0 0 0 white;",
+        prelight: "inset 0 0 0 0 #15202b;",
+        boxlight: "inset 300px 0 0 0 #15202b;",
       },
     },
   },
