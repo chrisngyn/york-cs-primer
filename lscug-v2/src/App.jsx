@@ -21,10 +21,14 @@ function App() {
       </div>
       <DownArrow/>
       <div className='h-screen mt-91vh relative bg-offwhite dark:bg-darkbg'>
-        <div className='flex justify-center'>
-          <TextDrop/>
+        <div className='flex flex-col h-full relative items-center'>
+          <TextDrop name="Year 1 Courses" text="A lot of students think that learning is limited to your lectures, and that what you learn in your university curriculum is 
+          sufficient to getting a nice job once you graduate. I can't stress this enough - but there is A LOT of learning to be done outside of your lectures. You also need 
+          to be practising what you learn as well, usually through making personal projects and putting them on your GitHub. I taught myself a lot of things independently 
+          outside of what was in my lectures and I'm all the more better for it. Do you know Git? Do you know fullstack development? Can you make a frontend, can you 
+          make a REST API? Do you know how to use a database? If not - don't wait until university teaches you, you can learn all these things in a summer with some 
+          Udemy courses."s/>
         </div>
-        <DownArrow/>
       </div>
     </div>
     

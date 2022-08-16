@@ -28,9 +28,11 @@ module.exports = {
       },
       animation: {
         roll: "spin 1s",
+        flip: "halfspin 0.3s forwards",
         fade: "fade 0.15s linear",
         fadedown: "fadedown 1s",
         slowbounce: "slowbounce 3s infinite",
+        expand: "expanding 1s forwards",
       },
       fontFamily: {
         biko: "biko",
@@ -45,12 +47,24 @@ module.exports = {
           "0%, 70%, 100%": { transform: "translateY(-25%)" },
           "35%": { transform: "translateY(0%)" },
         },
+        halfspin: {
+          "0%": { transform: "rotate(0)" },
+          "100%": { transform: "rotate(0.5turn)" },
+        },
+        expanding: {
+          "0%": { transform: "scale-y-0" },
+          "100%": { transform: "scale-y-100" },
+        },
       },
       boxShadow: {
         pre: "inset 0 0 0 0 white;",
         box: "inset 300px 0 0 0 white;",
         prelight: "inset 0 0 0 0 #15202b;",
         boxlight: "inset 300px 0 0 0 #15202b;",
+        botdark: "0px 0.6em 0.8em #0b1117",
+      },
+      transitionProperty: {
+        height: "height",
       },
     },
   },
