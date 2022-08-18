@@ -25,6 +25,7 @@ module.exports = {
         "100%": "100%",
         "91vh": "91.7vh",
         "100vh": "100vh",
+        "auto+": "auto + 200px",
       },
       animation: {
         roll: "spin 1s",
