@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Learn Outside Lectures",
+        "text": "A lot of students think that learning is limited to your lectures, and that what you learn in your university curriculum is sufficient to getting a nice job once you graduate. I can't stress this enough - but there is A LOT of learning to be done outside of your lectures. You also need to be practising what you learn as well, usually through making personal projects and putting them on your GitHub. I taught myself a lot of things independently outside of what was in my lectures and I'm all the more better for it. Do you know Git? Do you know fullstack development? Can you make a frontend, can you make a REST API? Do you know how to use a database? If not - don't wait until university teaches you, you can learn all these things in a summer with some Udemy courses."
+    },
+    {
+        "title": "Staying Organized",
+        "text": "This one is obvious, but staying organized is really important. Managing 5+ courses at a time can be really overwhelming. My first year was abysmal because I thought I could just mentally remember all my midterm and exam dates, which wasn't the case. Some of my organization tools are a Google Calendar (I put all my lectures and important dates), Notion (keeping track of my grades as I get them throughout the semester as well as tracking my degree progress), Structured (great iOS app for managing your day, syncs between my iPhone, iPad, and MacBook), and I keep a personal Discord server (where I'm the only member) where I have different channels to organize my thoughts - screenshots, links to revisit later, reminders for myself, etc."
+    },
+    {
+        "title": "Using Your Summers Wisely",
+        "text": "You know how in high school when you were done the year, you got to enjoy your summer for a few months before you went back to school? I thought that's how it also worked in university, but that's a really bad use of time. Seriously, USE YOUR SUMMERS WISELY. Whether this means working a summer internship, taking summer school to get ahead of your degree a bit or retaking a course to change your D to an A, making personal projects, grinding LeetCode, just don't dick around for an entire semester without doing anything productive. In my first and second year, I got really overwhelmed with taking 5 courses, so I chose to do 4 in the fall, 4 in the winter, and 2 in the summmer instead to make up for it."
+    },
+    {
+        "title": "Time Management",
+        "text": "Knowing how to manage your time is a pivotal part in being a university student, and in life. This isn't high school anymore where you take four classes in a day, maybe three if you have a spare. You can be taking upwards of maybe five or six courses at once, and if they all have midterms in the same week, or even in the same day, then you better learn how to manage your time wisely. I used to play games like crazy in high school. Once university hit, I completely had to change my habits because for me, setting into university life was hard. It's pretty dangerous getting good grades in high school without having to put in any effort, because those habits carry over. I ended up uninstalling Steam and fixing my sleeping habits, because it was awful sleeping at 2:00am, getting up for an 8:00am lecture, barely being able to pay attention during it, and then having to catch up on everything post-lecture. If you have any bad habits, like sleeping at 4:00am or playing games for hours, you should break them."
+    },
+    {
+        "title": "Making Friends",
+        "text": "I'm just going to say right now - university is not a solo sport. Establish a good support group. You're bound to see the same people for the next 3-5 years, so you might as well get to know them, right? You're bound to study for the same midterms and exam, so might as well get to know them, right? I can definitely say I would not be where I am right now without the support of all my friends and everyone I met in computer science. If you're antisocial or in an awkward shell, it's time to get out of it. You're going to be a professional in a few years, it's important to know how to establish good relations with people, know to talk to one another, and how to make friends. Your lectures and the computer science Discord servers is a great way to start talking to people. Frosh is also a really good opportunity to meet a lot of people in your faculty as well. I liked my frosh so much, I ended up being a frosh leader for the next two years as well."
+    }
+]

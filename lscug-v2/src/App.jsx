@@ -2,8 +2,13 @@ import React from 'react';
 import NavBar from './components/navbar';
 import DownArrow from './components/downarrow'
 import TextDrop from './components/textdrop'
+import MiscText from "./strings/misc.json"
+import CoopText from "./strings/coop.json"
+import FAQText from "./strings/faq.json"
+import AboutText from "./strings/about.json"
 
 function App() {
+  
   return (
     <div className="max-w-screen h-100vh bg-offwhite dark:bg-darkbg">
       <NavBar/>
@@ -29,26 +34,21 @@ function App() {
           <TextDrop name="Year 4 Courses"/>
           <TextDrop name="Other Requirements"/>
           <h2 id="misc" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Miscellaneous and General Tips</h2>
-          <TextDrop name="Learn Outside Lectures"/>
-          <TextDrop name="Staying Organized"/>
-          <TextDrop name="Using Your Summers Wisely"/>
-          <TextDrop name="Time Management"/>
-          <TextDrop name="Making Friends"/>
+          {MiscText.map((MiscText, key) => {
+              return <TextDrop key={key} name={MiscText.title} text={MiscText.text}/>
+          })}
           <h2 id="coop" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Co-op and Internships</h2>
-          <TextDrop name="What's Co-Op / Internship?"/>
-          <TextDrop name="Why Should You Do Them?"/>
-          <TextDrop name="How Do I Get My First?"/>
-          <TextDrop name="How Do I Find Jobs?"/>
+          {CoopText.map((CoopText, key) => {
+              return <TextDrop key={key} name={CoopText.title} text={CoopText.text}/>
+          })}
           <h2 id="faq" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Frequently Asked Questions</h2>
-          <TextDrop name="The Difference From Honours and Non-Honours"/>
-          <TextDrop name="Bachelors of Art or Science?"/>
-          <TextDrop name="How Should I Pace Myself?"/>
-          <TextDrop name='Worried About Not Graduating "on Time"'/>
-          <TextDrop name="Is York a Good School for Computer Science?"/>
-          <TextDrop name="How Much Math Is in Computer Science?"/>
+          {FAQText.map((FAQText, key) => {
+              return <TextDrop key={key} name={FAQText.title} text={FAQText.text}/>
+          })}
           <h2 id="about" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>About Author</h2>
-          <TextDrop name="About Me"/>
-          <TextDrop name="My University Career"/>
+          {AboutText.map((AboutText, key) => {
+              return <TextDrop key={key} name={AboutText.title} text={AboutText.text}/>
+          })}
         </div>
       </div>
     </div>
