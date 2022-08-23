@@ -27,7 +27,6 @@ function App() {
         <br/>
         <a className='text-l'>A Guide to Surviving Lassonde's Computer Science</a>
       </div>
-
       <div className='font-biko text-black text-xl dark:text-white absolute top-45% left-[55%] w-1/3 animate-fadedown'>
         <a><strong>IMPORTANT DISCLAIMER</strong><br></br>This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
         All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
