@@ -6,6 +6,7 @@ export default function TextDrop(props) {
     const handleClick = event => {
         setEffect(current => !current)
     }
+    
     return (
             <div className={`${effect ? "min-h-24" : "h-24"} w-70% bg-offwhite relative dark:shadow-botdark select-none hover:cursor-pointer dark:bg-darkbord mt-5 rounded-lg transition-all`} 
             onClick={handleClick}>

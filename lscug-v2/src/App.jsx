@@ -2,13 +2,12 @@ import React from 'react';
 import NavBar from './components/navbar';
 import DownArrow from './components/downarrow'
 import TextDrop from './components/textdrop'
+import AboutText from "./strings/about.json"
 import MiscText from "./strings/misc.json"
 import CoopText from "./strings/coop.json"
 import FAQText from "./strings/faq.json"
-import AboutText from "./strings/about.json"
 
 function App() {
-  
   return (
     <div className="max-w-screen h-100vh bg-offwhite dark:bg-darkbg">
       <NavBar/>
