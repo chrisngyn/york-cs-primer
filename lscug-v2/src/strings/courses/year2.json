@@ -1,0 +1,34 @@
+[
+    {
+        "title": "EECS2001 - Introduction to the Theory of Computation",
+        "text": "Theory intensive course, including topics like automata theory, Turing machines, formal languages, and more. If you don't know what any of that means, I don't either still. Can be very abstract at times and hard to follow. Don't take this course with Jeffery Edmonds. Difficulty 8 / 10."
+    },
+    {
+        "title": "EECS2011 - Fundamentals of Data Structures",
+        "text": "One of the most important courses in second year alongside EECS2030. It's important to master data structures because these concepts, alongside algorithms, is what you're tested on in programming interviews. I was definitely carefree the first time I took this course, got a D, and retook it in the summer where I got an A. Easy beginning but when you touch trees and graphs is when it starts to get really hard. Take this course very seriously! Difficulty 7 / 10."
+    },
+    {
+        "title": "EECS2021 - Computer Organization",
+        "text": "Definitely an annoying course. You'll be learning about really low level fundamentals about how computers work and use low-level assembly languages like RISC-V and Verilog. I've never used RISC-V or Verilog since I finished the course, so I wouldn't invest too much time in learning how to develop in these languages. Was really interesting at times, and also had a heavy workload. The labs can take a REALLY long time to do. Textbook is practically necessary for this course. Difficulty 7 / 10."
+    },
+    {
+        "title": "EECS2030 - Advanced Object Oriented Programming",
+        "text": "One of the most important courses in second year alongside EECS2011. This is a Java course that goes into depth about Object Oriented Programming, which is very important and helped me to become a fairly more competent developer. I enjoyed this course a lot, and has a relatively lighter courseload compared to other second year courses. Difficulty 3 / 10."
+    },
+    {
+        "title": "EECS2031 - Software Tools",
+        "text": "Your first C course. I found this course to be challenging because I was only used to Java and Python, so picking up C was kind of hard. You'll also be working with Linux commands, Bash scripting, and more. This is a pretty important course as well, so invest a decent amount of time into it. Have you been using Windows or Mac the entire time? Are you used to hitting 'run' in your IDEs to execute code? Now you'll be getting into the nitty gritty and learning how to use a terminal and execute code from there. Difficulty 6 / 10."
+    },
+    {
+        "title": "MATH1090 - Introduction to Logic for Computer Science",
+        "text": "Follow-up to EECS1019. I found this course to be much easier than EECS1019. It's still a lot of logic, but much less mathematical and formal. Some chapters can be abstract. Difficulty 5 / 10."
+    },
+    {
+        "title": "MATH2030 - Elementary Probability",
+        "text": "Note: if you're deciding to NOT do your honours, you don't have to take this course. Otherwise, you do. I won't be taking this course since I've opted to do the 90.0 credit program, so I don't really have a good description of this course. From my friends who have taken this course, they all say it's hard. Probability, math, calculus, proofs. Difficulty 8 / 10."
+    },
+    {
+        "title": "Electives",
+        "text": "Read my excerpt on electives under year 1. If you didn't take any courses in first year, now would be a good time to knock off 1 or 2."
+    }
+]

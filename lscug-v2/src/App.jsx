@@ -2,10 +2,19 @@ import React from 'react';
 import NavBar from './components/navbar';
 import DownArrow from './components/downarrow'
 import TextDrop from './components/textdrop'
-import AboutText from "./strings/about.json"
+import DoubleDrop  from './components/doubledrop';
 import MiscText from "./strings/misc.json"
 import CoopText from "./strings/coop.json"
 import FAQText from "./strings/faq.json"
+import AboutText from "./strings/about.json"
+import YearOne from "./strings/courses/year1.json"
+import YearTwo from "./strings/courses/year2.json"
+import YearThree from "./strings/courses/year3.json"
+import YearFour from "./strings/courses/year4.json"
+import Other from "./strings/courses/other.json"
+import Summary from "./strings/summary/summary.json"
+import SumIntro from "./strings/summary/intro.json"
+
 
 function App() {
   return (
@@ -27,11 +36,29 @@ function App() {
       <div className='h-auto pb-10 mt-91vh relative bg-offwhite dark:bg-darkbg'>
         <div className='flex flex-col h-full items-center'>
           <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Computer Science Curriculum</h2>
-          <TextDrop name="Year 1 Courses"/>
-          <TextDrop name="Year 2 Courses"/>
-          <TextDrop name="Year 3 Courses"/>
-          <TextDrop name="Year 4 Courses"/>
-          <TextDrop name="Other Requirements"/>
+              <TextDrop name="Year One Courses" text={
+                YearOne.map((YearOne, key) => {
+                  return <DoubleDrop key={key} name={YearOne.title} text={YearOne.text}/>
+                })
+              }/>
+              <TextDrop name="Year Two Courses" text={
+                YearTwo.map((YearTwo, key) => {
+                  return <DoubleDrop key={key} name={YearTwo.title} text={YearTwo.text}/>
+                })
+              }/>
+              <TextDrop name="Year Three Courses" text={
+                YearThree.map((YearThree, key) => {
+                  return <DoubleDrop key={key} name={YearThree.title} text={YearThree.text}/>
+                })
+              }/>
+              <TextDrop name="Year Four Courses" text={
+                YearFour.map((YearFour, key) => {
+                  return <DoubleDrop key={key} name={YearFour.title} text={YearFour.text}/>
+                })
+              }/>
+              {Other.map((Other, key) => {
+                  return <TextDrop key={key} name={Other.title} text={Other.text}/>
+              })}
           <h2 id="misc" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Miscellaneous and General Tips</h2>
           {MiscText.map((MiscText, key) => {
               return <TextDrop key={key} name={MiscText.title} text={MiscText.text}/>
@@ -48,6 +75,14 @@ function App() {
           {AboutText.map((AboutText, key) => {
               return <TextDrop key={key} name={AboutText.title} text={AboutText.text}/>
           })}
+          {SumIntro.map((SumIntro, key) => {
+              return <TextDrop key={key} name={SumIntro.title} desc={SumIntro.text}
+                text={
+                Summary.map((Summary, key) => {
+                  return <DoubleDrop key={key} name={Summary.title} text={Summary.text}/>
+                })
+              }/>
+          })}
         </div>
       </div>
     </div>
@@ -56,8 +91,3 @@ function App() {
 }
 
 export default App;
-export const curriculum = document.getElementById("curriculum")
-export const misc = document.getElementById("misc")
-export const coop = document.getElementById("coop")
-export const faq = document.getElementById("faq")
-export const about = document.getElementById("about")

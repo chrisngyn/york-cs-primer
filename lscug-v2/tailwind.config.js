@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         darkbg: "#15202b",
-        darkbord: "#0b1117",
+        darkbord: "#0e161f",
         accents: "#C3073F",
         pltxt: "#C5C6C7",
         dgrey: "#12141b",
@@ -22,6 +22,7 @@ module.exports = {
         "1/10": "10%",
         "45%": "45%",
         "70%": "70%",
+        "90%": "90%",
         "100%": "100%",
         "91vh": "91.7vh",
         "100vh": "100vh",
@@ -30,7 +31,7 @@ module.exports = {
       animation: {
         roll: "spin 1s",
         flip: "halfspin 0.3s forwards",
-        fade: "fade 0.15s linear",
+        fade: "fade 0.5s",
         fadedown: "fadedown 1s",
         slowbounce: "slowbounce 3s infinite",
         expand: "expanding 1s forwards",
@@ -40,6 +41,10 @@ module.exports = {
         couture: "couture",
       },
       keyframes: {
+        fade: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "100%" },
+        },
         fadedown: {
           "0%": { opacity: "0", transform: "translateY(-50px)" },
           "100%": { opacity: "100%", transform: "translateY(0)" },
