@@ -18,7 +18,7 @@ export default function DoubleDrop(props) {
     }
 
         return (
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col items-center font-poppins'>
                 <div style={style} className={`h-24 w-90% bg-offwhite relative select-none overflow-clip hover:cursor-pointer dark:bg-darkbg mt-5 ease-in-out rounded-lg transition-all`} 
                 onClick={handleClick}>
                     <div className='flex flex-col col-1 justify-center h-24 w-full'>

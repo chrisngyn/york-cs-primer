@@ -9,8 +9,8 @@ module.exports = {
         accents: "#C3073F",
         pltxt: "#C5C6C7",
         dgrey: "#12141b",
-        offwhite: "#F4F0E0",
-        owbord: "#bfb7a3",
+        offwhite: "#f5f2e9",
+        owbord: "#e8e4d8",
       },
       spacing: {
         "1/12": "8.3%",
@@ -27,7 +27,6 @@ module.exports = {
         "100%": "100%",
         "91vh": "91.7vh",
         "100vh": "100vh",
-        "auto+": "auto + 200px",
       },
       animation: {
         roll: "spin 1s",
@@ -38,7 +37,7 @@ module.exports = {
         expand: "expanding 1s forwards",
       },
       fontFamily: {
-        biko: "biko",
+        biko: "poppins",
         couture: "couture",
       },
       keyframes: {

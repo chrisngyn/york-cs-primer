@@ -33,8 +33,8 @@ export default function TextDrop(props) {
     }
 
     return (
-            <div style={style} className={`h-24 w-90% lg:w-70% bg-owbord relative dark:shadow-botdark select-none overflow-clip hover:cursor-pointer dark:bg-darkbord mt-5 ease-in-out rounded-lg transition-all`}>
-                <div className="w-full h-24 opacity-0 absolute z-10" onClick={handleClick}></div>
+            <div style={style} className={`h-24 w-90% lg:w-70% bg-owbord relative dark:shadow-botdark select-none overflow-clip dark:bg-darkbord mt-5 ease-in-out rounded-lg transition-all`}>
+                <div className="w-full h-24 opacity-0 absolute z-10 hover:cursor-pointer" onClick={handleClick}></div>
                 <img className={`${effect && "animate-flip"} h-8 w-8 right-8 -mt-4 top-12 dark:invert absolute`} src={Down} alt="down arrow"/>
                 <div className='relative py-8 px-5 dark:text-white text-xl'>{props.name}</div>
                 <div ref={ref} className={`${effect ? "visible" : "invisible"} p-3 whitespace-pre-line dark:text-white`}>
