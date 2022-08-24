@@ -37,57 +37,65 @@ function App() {
       <div className='h-auto pb-10 mt-91vh relative bg-offwhite dark:bg-darkbg'>
         <div className='flex flex-col h-full items-center'>
           <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Computer Science Curriculum</h2>
-              <TextDrop name="Year One Courses" text={
-                YearOne.map((YearOne, key) => {
-                  return <DoubleDrop key={key} name={YearOne.title} text={YearOne.text}/>
-                })
-              }/>
-              <TextDrop name="Year Two Courses" text={
-                YearTwo.map((YearTwo, key) => {
-                  return <DoubleDrop key={key} name={YearTwo.title} text={YearTwo.text}/>
-                })
-              }/>
-              <TextDrop name="Year Three Courses" text={
-                YearThree.map((YearThree, key) => {
-                  return <DoubleDrop key={key} name={YearThree.title} text={YearThree.text}/>
-                })
-              }/>
-              <TextDrop name="Year Four Courses" text={
-                YearFour.map((YearFour, key) => {
-                  return <DoubleDrop key={key} name={YearFour.title} text={YearFour.text}/>
-                })
-              }/>
-              {Other.map((Other, key) => {
-                  return <TextDrop key={key} name={Other.title} text={Other.text}/>
-              })}
+          <TextDrop name="Year One Courses" text={
+            YearOne.map((YearOne, key) => {
+              return <DoubleDrop key={key} name={YearOne.title} text={YearOne.text}/>
+            })
+          }/>
+
+          <TextDrop name="Year Two Courses" text={
+            YearTwo.map((YearTwo, key) => {
+              return <DoubleDrop key={key} name={YearTwo.title} text={YearTwo.text}/>
+            })
+          }/>
+
+          <TextDrop name="Year Three Courses" text={
+            YearThree.map((YearThree, key) => {
+              return <DoubleDrop key={key} name={YearThree.title} text={YearThree.text}/>
+            })
+          }/>
+
+          <TextDrop name="Year Four Courses" text={
+            YearFour.map((YearFour, key) => {
+              return <DoubleDrop key={key} name={YearFour.title} text={YearFour.text}/>
+            })
+          }/>
+
+          {Other.map((Other, key) => {
+            return <TextDrop key={key} name={Other.title} text={Other.text}/>
+          })}
+          
           <h2 id="misc" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Miscellaneous and General Tips</h2>
           {MiscText.map((MiscText, key) => {
-              return <TextDrop key={key} name={MiscText.title} text={MiscText.text}/>
+            return <TextDrop key={key} name={MiscText.title} text={MiscText.text}/>
           })}
+
           <h2 id="coop" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Co-op and Internships</h2>
           {CoopText.map((CoopText, key) => {
-              return <TextDrop key={key} name={CoopText.title} text={CoopText.text}/>
+            return <TextDrop key={key} name={CoopText.title} text={CoopText.text}/>
           })}
+
           <h2 id="faq" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Frequently Asked Questions</h2>
           {FAQText.map((FAQText, key) => {
-              return <TextDrop key={key} name={FAQText.title} text={FAQText.text}/>
+            return <TextDrop key={key} name={FAQText.title} text={FAQText.text}/>
           })}
+
           <h2 id="about" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>About Author</h2>
           {AboutText.map((AboutText, key) => {
-              return <TextDrop key={key} name={AboutText.title} text={AboutText.text}/>
+            return <TextDrop key={key} name={AboutText.title} text={AboutText.text}/>
           })}
+
           {SumIntro.map((SumIntro, key) => {
-              return <TextDrop key={key} name={SumIntro.title} desc={SumIntro.text}
-                text={
-                Summary.map((Summary, key) => {
-                  return <DoubleDrop key={key} name={Summary.title} text={Summary.text}/>
-                })
-              }/>
+            return <TextDrop key={key} name={SumIntro.title} desc={SumIntro.text}
+              text={
+              Summary.map((Summary, key) => {
+                return <DoubleDrop key={key} name={Summary.title} text={Summary.text}/>
+              })
+            }/>
           })}
         </div>
       </div>
     </div>
-    
   );
 }
 
