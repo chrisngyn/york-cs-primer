@@ -18,7 +18,7 @@ import SumIntro from "./strings/summary/intro.json"
 function App() {
   return (
     <div className="bg-offwhite dark:bg-darkbg">
-      <div className='h-screen'>
+      <div className='h-screen w-screen'>
         <NavBar/>
         <div className='flex flex-col items-center lg:flex-none'>
           <div className='select-none text-center lg:text-left font-couture text-black dark:text-white lg:absolute mt-16 lg:mt-64 lg:right-[50%] right-[55%] animate-fadedown'>
