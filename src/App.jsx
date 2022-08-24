@@ -24,7 +24,7 @@ function App() {
           <div className='select-none text-center lg:text-left font-couture text-black dark:text-white lg:absolute mt-16 lg:mt-64 lg:right-[50%] right-[55%] animate-fadedown'>
             <a className='text-2xl'>Welcome to the</a>
             <br />
-            <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LSCUG</a>
+            <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LCSUG</a>
             <br />
             <a>A Guide to Surviving Lassonde's Computer Science</a>
           </div>
