@@ -17,25 +17,26 @@ import SumIntro from "./strings/summary/intro.json"
 
 function App() {
   return (
-    <div className="max-w-screen h-screen bg-offwhite dark:bg-darkbg">
-      <NavBar/>
-      <div className='flex flex-col items-center lg:flex-none'>
-        <div className='select-none text-center lg:text-left font-couture text-black dark:text-white lg:absolute mt-16 lg:top-[38%]  right-[55%] animate-fadedown'>
-          <a className='text-2xl'>Welcome to the</a>
-          <br/>
-          <a className='text-7xl md:text-9xl hover:animate-pulse'>LSCUG</a>
-          <br/>
-          <a>A Guide to Surviving Lassonde's Computer Science</a>
-        </div>
-        <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white lg:absolute mt-20 lg:top-[38%] 2xl:top-2/5 left-[55%] w-2/3 lg:w-1/3 animate-fadedown'>
-          <a><strong>IMPORTANT DISCLAIMER</strong><br/>This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
-          All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
+    <div className="bg-offwhite dark:bg-darkbg">
+      <div className='h-screen'>
+        <NavBar/>
+        <div className='flex flex-col items-center lg:flex-none'>
+          <div className='select-none text-center lg:text-left font-couture text-black dark:text-white lg:absolute mt-16 lg:mt-64 lg:right-[50%] right-[55%] animate-fadedown'>
+            <a className='text-2xl'>Welcome to the</a>
+            <br/>
+            <a className='text-7xl md:text-9xl hover:animate-pulse'>LSCUG</a>
+            <br/>
+            <a className='pr-3 pl-3 lg:p-0'>A Guide to Surviving Lassonde's Computer Science</a>
+          </div>
+          <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white lg:absolute mt-24 lg:mt-64 2xl:mt-72 left-[55%] w-2/3 lg:w-1/3 animate-fadedown'>
+            <a><strong>IMPORTANT DISCLAIMER</strong><br/>This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
+            All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
+          </div>
         </div>
       </div>
-
       <DownArrow/>
       
-      <div className='h-auto pb-10 mt-91vh relative bg-offwhite dark:bg-darkbg'>
+      <div className={`h-auto pb-10 bg-offwhite dark:bg-darkbg`}>
         <div className='flex flex-col h-full items-center'>
           <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl lg:text-3xl'>Computer Science Curriculum</h2>
           <TextDrop name="Year One Courses" text={
