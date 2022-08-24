@@ -15,7 +15,6 @@ import Other from "./strings/courses/other.json"
 import Summary from "./strings/summary/summary.json"
 import SumIntro from "./strings/summary/intro.json"
 
-
 function App() {
   return (
     <div className="max-w-screen h-100vh bg-offwhite dark:bg-darkbg">
@@ -27,11 +26,14 @@ function App() {
         <br/>
         <a className='text-l'>A Guide to Surviving Lassonde's Computer Science</a>
       </div>
+
       <div className='font-biko text-black text-xl dark:text-white absolute top-45% left-[55%] w-1/3 animate-fadedown'>
         <a><strong>IMPORTANT DISCLAIMER</strong><br></br>This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
         All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
       </div>
+
       <DownArrow/>
+      
       <div className='h-auto pb-10 mt-91vh relative bg-offwhite dark:bg-darkbg'>
         <div className='flex flex-col h-full items-center'>
           <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-3xl'>Computer Science Curriculum</h2>

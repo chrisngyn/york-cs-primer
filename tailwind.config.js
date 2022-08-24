@@ -9,7 +9,7 @@ module.exports = {
         accents: "#C3073F",
         pltxt: "#C5C6C7",
         dgrey: "#12141b",
-        offwhite: "#e6dcc3",
+        offwhite: "#F4F0E0",
         owbord: "#bfb7a3",
       },
       spacing: {
