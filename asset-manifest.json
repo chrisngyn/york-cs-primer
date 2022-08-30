@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/york-cs-primer/static/css/main.2cab506c.css",
+    "main.css": "/york-cs-primer/static/css/main.3cf845f7.css",
     "main.js": "/york-cs-primer/static/js/main.c00f29ff.js",
     "static/media/Poppins_Regular.ttf": "/york-cs-primer/static/media/Poppins_Regular.35d26b781dc5fda684cc.ttf",
     "static/media/couture-bld.otf": "/york-cs-primer/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
@@ -8,11 +8,11 @@
     "index.html": "/york-cs-primer/index.html",
     "static/media/downarrow1.svg": "/york-cs-primer/static/media/downarrow1.1805409b6994a414fbbb7a452f8f8bbf.svg",
     "static/media/downarrow2.svg": "/york-cs-primer/static/media/downarrow2.f3e1feea8e2770540f9a82e689ac75ef.svg",
-    "main.2cab506c.css.map": "/york-cs-primer/static/css/main.2cab506c.css.map",
+    "main.3cf845f7.css.map": "/york-cs-primer/static/css/main.3cf845f7.css.map",
     "main.c00f29ff.js.map": "/york-cs-primer/static/js/main.c00f29ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cab506c.css",
+    "static/css/main.3cf845f7.css",
     "static/js/main.c00f29ff.js"
   ]
 }
