@@ -6,10 +6,10 @@ export default function NavBar() {
     var dark = true;
 
     const auto = event => {
-        if(dark == true) {
+        if(dark === true) {
             root.classList.remove("dark")
             dark = !dark
-        } else if (dark == false) {
+        } else if (dark === false) {
             root.classList.add("dark")
             dark = !dark
         }
