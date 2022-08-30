@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -7,7 +8,9 @@ module.exports = {
         //darkmode background
         darkbg: "#15202b",
         //darkmode textbox
-        darkbord: "#111b26",
+        darkbord: "#14202e",
+        //darkmode inner box
+        dark2: "#19293b",
         //lightmode background
         offwhite: "#f5f2e9",
         //lightmode textbox
@@ -59,7 +62,7 @@ module.exports = {
       },
       boxShadow: {
         //textbox dropshadow
-        botdark: "0px 0.6em 0.8em #0b1117",
+        botdark: "rgba(0, 0, 0, 0.35) 0px 5px 15px;",
       },
     },
   },
