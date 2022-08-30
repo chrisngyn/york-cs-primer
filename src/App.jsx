@@ -30,11 +30,11 @@ function App() {
             <br />
             <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LCSUG</a>
             <br />
-            <div className='pr-4 pl-4'>
-              <a className='lg:m-0'>A Guide to Surviving Lassonde's Computer Science</a>
+            <div className='pr-4 pl-4 lg:p-0'>
+              <a >A Guide to Surviving Lassonde's Computer Science</a>
             </div>
           </div>
-          <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white mt-24 lg:mt-0 lg:absolute lg:ml-10 lg:left-[0%] w-2/3 lg:w-[450px] animate-fadedown'>
+          <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white mt-24 lg:mt-0 lg:absolute lg:ml-10 lg:left-0 w-2/3 lg:w-[450px] animate-fadedown'>
             <a><strong>IMPORTANT DISCLAIMER</strong><br />This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
               All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
           </div>
@@ -44,7 +44,7 @@ function App() {
 
       <div className={`pb-10 bg-offwhite dark:bg-darkbg`}>
         <div className='flex flex-col h-full items-center'>
-          <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl lg:text-3xl'>Computer Science Curriculum</h2>
+          <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-center pl-4 pr-4 text-2xl lg:text-3xl'>Computer Science Curriculum</h2>
           <TextDrop name="Year One Courses" text={
             YearOne.map((YearOne, key) => {
               return <DoubleDrop key={key} name={YearOne.title} text={YearOne.text} />
@@ -73,22 +73,22 @@ function App() {
             return <TextDrop key={key} name={Other.title} text={Other.text} />
           })}
 
-          <h2 id="misc" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl lg:text-3xl'>Miscellaneous and General Tips</h2>
+          <h2 id="misc" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Miscellaneous and General Tips</h2>
           {MiscText.map((MiscText, key) => {
             return <TextDrop key={key} name={MiscText.title} text={MiscText.text} />
           })}
 
-          <h2 id="coop" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl lg:text-3xl'>Co-op and Internships</h2>
+          <h2 id="coop" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Co-op and Internships</h2>
           {CoopText.map((CoopText, key) => {
             return <TextDrop key={key} name={CoopText.title} text={CoopText.text} />
           })}
 
-          <h2 id="faq" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl lg:text-3xl'>Frequently Asked Questions</h2>
+          <h2 id="faq" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Frequently Asked Questions</h2>
           {FAQText.map((FAQText, key) => {
             return <TextDrop key={key} name={FAQText.title} text={FAQText.text} />
           })}
 
-          <h2 id="about" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl lg:text-3xl'>About Author</h2>
+          <h2 id="about" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>About Author</h2>
           {AboutText.map((AboutText, key) => {
             return <TextDrop key={key} name={AboutText.title} text={AboutText.text} />
           })}
