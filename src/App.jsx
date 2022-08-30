@@ -26,7 +26,7 @@ function App() {
             <br/>
             <a className='text-7xl md:text-9xl hover:animate-pulse'>LSCUG</a>
             <br/>
-            <a className='pr-3 pl-3 lg:p-0'>A Guide to Surviving Lassonde's Computer Science</a>
+            <a className=''>A Guide to Surviving Lassonde's Computer Science</a>
           </div>
           <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white lg:absolute mt-24 lg:mt-64 2xl:mt-72 left-[55%] w-2/3 lg:w-1/3 animate-fadedown'>
             <a><strong>IMPORTANT DISCLAIMER</strong><br/>This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.

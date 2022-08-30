@@ -11,16 +11,25 @@ export default function DoubleDrop(props) {
     setHeight(ref.current.clientHeight)
   })
 
-  const handleClick = event => {
-    if (effect === false) {
-      setStyle({height:96+height});
-    } else {
-      setStyle(null);
+  const handleClick = () => {
+    if(effect === false) {
+      setStyle({height: 96 + height})
+      setTimeout(auto, 100)
+    } else if (effect === true) {
+      setStyle({height: 96 + height})
+      setTimeout(close, 1)
     }
-    
+
     setEffect(current => !current)
   }
 
+  const auto = event => {
+    setStyle({height:"auto"})
+  }
+
+  const close = event => {
+    setStyle({height: 96})
+  }
   return (
     <div className='flex flex-col items-center font-poppins'>
       <div style={style} className={`h-24 w-90% bg-exgrey relative select-none overflow-clip hover:cursor-pointer dark:bg-darkbg mt-5 ease-in-out rounded-lg transition-all`} 
