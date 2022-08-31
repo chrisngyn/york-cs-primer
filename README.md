@@ -3,7 +3,7 @@
 ### About
 This is my take on a guide to York University's Computer Science program. This is
 intended to document all the things I've learned over the years, answers to commonly
-asked questions, and all the things I wish I knew when I was a first year student.
+asked questions, and things I wish I knew when I was a first year student.
 
 ### Contributing
 Refer to CONTRIBUTING.md. Essentially, I'll be posting GitHub issues overtime about

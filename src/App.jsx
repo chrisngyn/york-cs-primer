@@ -1,20 +1,22 @@
 import React from 'react'
-import NavBar from './components/navbar'
-import DownArrow from './components/downarrow'
-import TextDrop from './components/textdrop'
-import DoubleDrop from './components/doubledrop'
+
 import DarkMode from './components/darkmode'
-import MiscText from "./strings/misc.json"
-import CoopText from "./strings/coop.json"
-import FAQText from "./strings/faq.json"
-import AboutText from "./strings/about.json"
+import DoubleDrop from './components/doubledrop'
+import DownArrow from './components/downarrow'
+import NavBar from './components/navbar'
+import TextDrop from './components/textdrop'
+
 import YearOne from "./strings/courses/year1.json"
 import YearTwo from "./strings/courses/year2.json"
 import YearThree from "./strings/courses/year3.json"
 import YearFour from "./strings/courses/year4.json"
 import Other from "./strings/courses/other.json"
-import Summary from "./strings/summary/summary.json"
+import MiscText from "./strings/misc.json"
+import CoopText from "./strings/coop.json"
+import FAQText from "./strings/faq.json"
+import AboutText from "./strings/about.json"
 import SumIntro from "./strings/summary/intro.json"
+import Summary from "./strings/summary/summary.json"
 
 function App() {
   const root = window.document.documentElement
@@ -31,12 +33,16 @@ function App() {
             <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LCSUG</a>
             <br />
             <div className='pr-4 pl-4 lg:p-0'>
-              <a >A Guide to Surviving Lassonde's Computer Science</a>
+              <a >Lassonde's Computer Science Unofficial Guide</a>
             </div>
           </div>
           <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white mt-24 lg:mt-0 lg:absolute lg:ml-10 lg:left-0 w-2/3 lg:w-[450px] animate-fadedown'>
-            <a><strong>IMPORTANT DISCLAIMER</strong><br />This is <strong>not</strong> an offical website. This is a collection of things I wish I knew going into university.
-              All content is opinionated and based on <strong>my experiences</strong>, so read with a grain of salt as needed.</a>
+            <a>
+              <i>IMPORTANT DISCLAIMER</i> <br/>
+              This is not an offical website. This is a collection of things I wish
+              I knew going into university. All content is opinionated and based on
+              my experiences, so read with a grain of salt as needed.
+            </a>
           </div>
         </div>
       </div>
@@ -44,6 +50,9 @@ function App() {
 
       <div className={`pb-10 bg-offwhite dark:bg-darkbg`}>
         <div className='flex flex-col h-full items-center'>
+
+          {/* Section 1 -- Courses */}
+
           <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-center pl-4 pr-4 text-2xl lg:text-3xl'>Computer Science Curriculum</h2>
           <TextDrop name="Year One Courses" text={
             YearOne.map((YearOne, key) => {
@@ -73,20 +82,28 @@ function App() {
             return <TextDrop key={key} name={Other.title} text={Other.text} />
           })}
 
+          {/* Section 2 -- Miscellaneous */}
+
           <h2 id="misc" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Miscellaneous and General Tips</h2>
           {MiscText.map((MiscText, key) => {
             return <TextDrop key={key} name={MiscText.title} text={MiscText.text} />
           })}
+
+          {/* Section 3 -- Internships */}
 
           <h2 id="coop" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Co-op and Internships</h2>
           {CoopText.map((CoopText, key) => {
             return <TextDrop key={key} name={CoopText.title} text={CoopText.text} />
           })}
 
+          {/* Section 4 -- FAQ */}
+
           <h2 id="faq" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Frequently Asked Questions</h2>
           {FAQText.map((FAQText, key) => {
             return <TextDrop key={key} name={FAQText.title} text={FAQText.text} />
           })}
+
+          {/* Section 5 -- Author */}
 
           <h2 id="about" className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>About Author</h2>
           {AboutText.map((AboutText, key) => {
