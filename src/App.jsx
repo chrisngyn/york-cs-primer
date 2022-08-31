@@ -54,25 +54,25 @@ function App() {
           {/* Section 1 -- Courses */}
 
           <h2 id="curriculum" className='mt-10 mb-6 dark:text-white font-couture text-center pl-4 pr-4 text-2xl lg:text-3xl'>Computer Science Curriculum</h2>
-          <TextDrop name="Year One Courses" text={
+          <TextDrop name="1st Year Courses" text={
             YearOne.map((YearOne, key) => {
               return <DoubleDrop key={key} name={YearOne.title} text={YearOne.text} />
             })
           } />
 
-          <TextDrop name="Year Two Courses" text={
+          <TextDrop name="2nd Year Courses" text={
             YearTwo.map((YearTwo, key) => {
               return <DoubleDrop key={key} name={YearTwo.title} text={YearTwo.text} />
             })
           } />
 
-          <TextDrop name="Year Three Courses" text={
+          <TextDrop name="3rd Year Courses" text={
             YearThree.map((YearThree, key) => {
               return <DoubleDrop key={key} name={YearThree.title} text={YearThree.text} />
             })
           } />
 
-          <TextDrop name="Year Four Courses" text={
+          <TextDrop name="4th Year Courses" text={
             YearFour.map((YearFour, key) => {
               return <DoubleDrop key={key} name={YearFour.title} text={YearFour.text} />
             })
