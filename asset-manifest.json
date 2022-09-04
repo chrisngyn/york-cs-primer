@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/york-cs-primer/static/css/main.e7863f97.css",
-    "main.js": "/york-cs-primer/static/js/main.93a2b9aa.js",
+    "main.js": "/york-cs-primer/static/js/main.c265caa0.js",
     "static/media/Poppins_Regular.ttf": "/york-cs-primer/static/media/Poppins_Regular.35d26b781dc5fda684cc.ttf",
     "static/media/couture-bld.otf": "/york-cs-primer/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
     "static/media/light.svg": "/york-cs-primer/static/media/light.a06550cd13aed1672353a0741edeb9e9.svg",
@@ -9,10 +9,10 @@
     "static/media/downarrow1.svg": "/york-cs-primer/static/media/downarrow1.1805409b6994a414fbbb7a452f8f8bbf.svg",
     "static/media/downarrow2.svg": "/york-cs-primer/static/media/downarrow2.f3e1feea8e2770540f9a82e689ac75ef.svg",
     "main.e7863f97.css.map": "/york-cs-primer/static/css/main.e7863f97.css.map",
-    "main.93a2b9aa.js.map": "/york-cs-primer/static/js/main.93a2b9aa.js.map"
+    "main.c265caa0.js.map": "/york-cs-primer/static/js/main.c265caa0.js.map"
   },
   "entrypoints": [
     "static/css/main.e7863f97.css",
-    "static/js/main.93a2b9aa.js"
+    "static/js/main.c265caa0.js"
   ]
 }
