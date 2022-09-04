@@ -17,6 +17,7 @@ import FAQText from './strings/faq.json'
 import AboutText from './strings/about.json'
 import SumIntro from './strings/summary/intro.json'
 import Summary from './strings/summary/summary.json'
+import Coffee from './strings/coffee.json'
 
 function App() {
   const root = window.document.documentElement
@@ -28,10 +29,10 @@ function App() {
         <NavBar/>
         <div className='flex flex-col items-center lg:absolute lg:left-1/2 lg:right-1/2 lg:top-1/3'>
           <div className='select-none text-center lg:text-left font-couture text-black dark:text-white mt-16 lg:mt-0 lg:absolute lg:mr-10 lg:right-0 animate-fadedown'>
-            <a className='text-2xl'>Welcome to the</a> <br/>
-            <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LCSUG</a> <br/>
+            <a className='text-2xl'>Welcome to the</a> <br/><br/>
+            <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LCSUG</a>
             <div className='pr-4 pl-4 lg:p-0'>
-              <a>Lassonde's Computer Science Unofficial Guide</a>
+              <a>Lassonde Computer Science Unofficial Guide</a>
             </div>
           </div>
           <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white mt-24 lg:mt-0 lg:absolute lg:ml-10 lg:left-0 w-2/3 lg:w-[450px] animate-fadedown'>
@@ -114,6 +115,10 @@ function App() {
                   return <DoubleDrop key={key} name={Summary.title} text={Summary.text} />
                 })
               } />
+          })}
+          
+          {Coffee.map((Coffee, key) => {
+            return <TextDrop key={key} name={Coffee.title} text={Coffee.text} />
           })}
         </div>
       </div>
