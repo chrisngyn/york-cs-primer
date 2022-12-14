@@ -7,11 +7,11 @@
   }
 
 @font-face {
-    font-family: "poppins";
-    src: url('../public/fonts/Poppins_Regular.ttf');
+    font-family: 'poppins';
+    src: url('./../public/fonts/Poppins_Regular.ttf');
 }
 
 @font-face {
-    font-family: "couture";
-    src: url('../public/fonts/couture-bld.otf');
+    font-family: 'couture';
+    src: url('./../public/fonts/couture-bld.otf');
 }
