@@ -1,5 +1,5 @@
 import React from 'react';
-import light from '../images/light.svg'
+import light from './../images/light.svg'
 
 export default function NavBar() {
   const root = window.document.documentElement
@@ -7,12 +7,12 @@ export default function NavBar() {
 
   const auto = event => {
     if (dark) {
-      root.classList.remove("dark")
-      dark = !dark
-    } else if (dark === false) {
-      root.classList.add("dark")
-      dark = !dark
+      root.classList.remove('dark')
+    } else {
+      root.classList.add('dark')
     }
+
+    dark = !dark
   }
 
   return (
