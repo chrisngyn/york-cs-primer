@@ -24,11 +24,15 @@
         "text": "This is calculus II - which is entirely integrals. There is an insane ramp in difficulty between calculus I and II, so choose your professor wisely as some are harder than others. I would say this is one of the hardest first year courses; you have to pay attention, can't skip lectures, textbook is a must, and don't pair this course with EECS1019. \n\n Difficulty: 8 / 10 (possibly subjective since I'm bad at calculus and retook this course twice). \n\n Resources: Paul's Online Notes https://tutorial.math.lamar.edu/classes/calcII/calcII.aspx"
     },
     {
-        "title": "Foundational Sciences (if Bachelor of Science)",
+        "title": "Foundational Sciences (if Bachelors of Science)",
         "text": "You need 6.0 science credits from a list of courses, which typically means taking two biology, two chemistry, one of each, or one physics course (biology and chemistry is 3.0 while physics is 6.0). I took both chemistry (CHEM1000, CHEM1001) since I did well in it in high school and walked away with two As. Play to your strengths and take what you find easy. \n\n Biased, but I found chemistry easiest. I've heard biology is a lot of memorization, and physics is a lot of math. To me, chemistry is the middle ground where there's some theory, and some math as well."
     },
     {
+        "title": "General Education (if Bachelors of Art)",
+        "text": "Similar to a foundational sciences requirement, you need to take 21.0 credits of general education electives, with at least 6.0 credits from each of humanities, social science, and natural science areas. Review your program checklist and degree progress report to make sure you're actually taking courses eligible to fill this requirement."
+    },
+    {
         "title": "Electives",
-        "text": "You need 90.0 / 120.0 credits for the regular / honours degree. \n\n The core subjects (computer science, science, and math requirements) don't fill the credit count completely, so you'll be taking a few electives each year. \n\n Everyone's different, but I advise not taking more than 5 courses a semester. You can always take 1-2 courses in summer school as well to subsidize, if you choose not to take any during the normal fall / winter year. \n\n I took one year long elective in my first year, POLS1000 6.0. It was okay, I got a B. Really boring."
+        "text": "You need 90.0 / 120.0 credits for the regular / honours degree respectively. \n\n The core subjects (computer science, science, and math requirements) don't fill the credit count completely, so you'll be taking a few electives each year. \n\n Everyone's different, but I advise not taking more than 5 courses a semester. You can always take 1-2 courses in summer school as well to subsidize, if you choose not to take any during the normal fall / winter year. I took one year long elective in my first year, POLS1000 6.0. It was okay, I got a B. Really boring. \n\n TL;DR - electives are courses you take to fill your remaining credit count, after you're done doing all the mandatory courses in the program."
     }
 ]
