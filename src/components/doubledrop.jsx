@@ -34,13 +34,13 @@ export default function DoubleDrop(props) {
   return (
     <div className='flex flex-col items-center font-poppins'>
       {/*Inner text box*/}
-      <div style={style} className={`h-24 w-full bg-exgrey relative select-none overflow-clip hover:cursor-pointer dark:bg-dark2 mt-5 ease-in-out rounded-lg transition-all`}
-        onClick={handleClick}>
+      <div style={style} className={`h-24 w-full bg-exgrey relative overflow-clip dark:bg-dark2 mt-5 ease-in-out rounded-lg transition-all`}>
+          <div className="w-full h-24 opacity-0 absolute z-10 hover:cursor-pointer" onClick={handleClick}></div>
         <div className='flex flex-col col-1 justify-center h-24 w-full'>
           {/*Inner text box down arrow*/}
-          <img className={`${effect && "animate-flip"} h-6 w-6 lg:h-8 lg:w-8 right-6 lg:right-8 dark:invert absolute`} src={Down} alt="down arrow" />
+          <img className={`${effect && "animate-flip"} h-6 w-6 lg:h-8 lg:w-8 right-6 select-none lg:right-8 dark:invert absolute`} src={Down} alt="down arrow" />
           {/*Inner text box title element*/}
-          <div className='w-[90%] lg:w-90% px-5 dark:text-white text-sm xl:text-xl break-words'>{props.name}</div>
+          <div className='w-[90%] lg:w-90% px-5 dark:text-white text-sm xl:text-xl select-none break-words'>{props.name}</div>
         </div>
         {/*Inner text box text element*/}
         <div ref={ref} className={`${effect ? "visible" : "invisible"} pl-5 pr-5 pb-3 text-sm xl:text-lg whitespace-pre-line dark:text-white`}>{props.text}</div>
