@@ -40,7 +40,7 @@ function App() {
             <a>
               <i>IMPORTANT DISCLAIMER</i> <br/><br/>
               This is not an offical website. All content is opinionated, and based on my experiences. <br/><br/>
-              Found this guide useful? Star it on <a style={{color: '#007bff'}} target='_blank' href='https://github.com/chrisngyn/york-cs-primer'>GitHub</a>! Last updated on 12/14/2022.
+              Found this guide useful? Star it on <a style={{color: '#007bff'}} target='_blank' href='https://github.com/chrisngyn/york-cs-primer'>GitHub</a>! Last updated on 12/15/2022.
             </a>
           </div>
         </div>
