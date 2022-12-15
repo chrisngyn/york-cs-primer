@@ -7,6 +7,10 @@ Most things I need help for (e.g. course descriptions) will be posted in the
 [issues board](https://github.com/chrisngyn/york-cs-primer/issues). If there's
 something you think is worth adding and it's not on the board, open an issue!
 
+One thing I feel that would crop up often is courses changing from when I took them.
+If you've taken a course that's radically different from when I took it, you should
+open an issue to let me know!
+
 ### First time setup
 - Ensure you have [Git](https://git-scm.com/downloads) installed on your machine
 - Fork this project to your GitHub account

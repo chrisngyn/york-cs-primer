@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Down from "../images/downarrow2.svg";
+import Down from './../images/downarrow2.svg';
 
 export default function TextDrop(props) {
   const ref = useRef(null)
@@ -10,22 +10,25 @@ export default function TextDrop(props) {
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
-    if (props.desc) { setToggle(true) }
+    if (props.desc) {
+      setToggle(true)
+    }
   })
 
   const handleClick = () => {
-    if (effect === false) {
-      setStyle({ height: 96 + height })
-      setTimeout(auto, 100)
-    } else if (effect === true) {
+    if (effect) {
       setStyle({ height: 96 + height })
       setTimeout(close, 1)
+    } else {
+      setStyle({ height: 96 + height })
+      setTimeout(auto, 100)
     }
+
     setEffect(current => !current)
   }
 
   const auto = event => {
-    setStyle({ height: "auto" })
+    setStyle({ height: 'auto' })
   }
 
   const close = event => {

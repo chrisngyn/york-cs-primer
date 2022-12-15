@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Down from "../images/downarrow2.svg";
+import Down from './../images/downarrow2.svg';
 
 export default function DoubleDrop(props) {
   const ref = useRef(null)
@@ -12,19 +12,19 @@ export default function DoubleDrop(props) {
   })
 
   const handleClick = () => {
-    if (effect === false) {
-      setStyle({ height: 96 + height })
-      setTimeout(auto, 100)
-    } else if (effect === true) {
+    if (effect) {
       setStyle({ height: 96 + height })
       setTimeout(close, 1)
+    } else {
+      setStyle({ height: 96 + height })
+      setTimeout(auto, 100)
     }
 
     setEffect(current => !current)
   }
 
   const auto = event => {
-    setStyle({ height: "auto" })
+    setStyle({ height: 'auto' })
   }
 
   const close = event => {
@@ -41,9 +41,9 @@ export default function DoubleDrop(props) {
           <img className={`${effect && "animate-flip"} h-6 w-6 lg:h-8 lg:w-8 right-6 select-none lg:right-8 dark:invert absolute`} src={Down} alt="down arrow" />
           {/*Inner text box title element*/}
           <div className='w-[90%] lg:w-90% px-5 dark:text-white text-sm xl:text-xl select-none break-words'>{props.name}</div>
-        </div>
-        {/*Inner text box text element*/}
-        <div ref={ref} className={`${effect ? "visible" : "invisible"} pl-5 pr-5 pb-3 text-sm xl:text-lg whitespace-pre-line dark:text-white`}>{props.text}</div>
+       </div>
+        {/* Inner text box text element */}
+        <div ref={ref} className={`${effect ? 'visible' : 'invisible'} pl-5 pr-5 pb-3 text-sm xl:text-lg whitespace-pre-line dark:text-white`}>{props.text}</div>
       </div>
     </div>
   )

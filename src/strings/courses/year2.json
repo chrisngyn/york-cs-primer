@@ -1,34 +1,34 @@
 [
     {
-        "title": "EECS2001 - Introduction to the Theory of Computation",
-        "text": "Theory intensive course, including topics like automata theory, Turing machines, formal languages, and more. If you don't know what any of that means, I still don't either. Extremely theory heavy, very abstract, and hard to follow. I really hated this course; choose a good professor. \n\n Difficulty: 8 / 10."
+        "title": "EECS2001 - Intro to the Theory of Computation",
+        "text": "Theory intensive course, including topics like automata theory, Turing machines, formal languages, and more. If you don't know what any of that means, I still don't either. Extremely theory heavy, very abstract, and hard to follow. I really hated this course, choose a good professor. \n\n Difficulty: 8 / 10."
     },
     {
         "title": "EECS2011 - Fundamentals of Data Structures",
-        "text": "One of the most important courses in second year alongside EECS2030. It's important to learn data structures because these concepts, alongside algorithms, is what you're tested on in job interviews (and I can attest they're concepts actually used in real programming work). \n\n I was carefree the first time I took this course and got a D, but I retook it in the following summer where I got an A. Easy beginning, but when you reach trees and graphs is when it starts to get really hard. Take this course very seriously! \n\n Difficulty: 7.5 / 10. \n\n Resources: practise what you learn on LeetCode. Learn data structures very, very, very well."
+        "text": "One of the most important courses in second year alongside EECS2030. Data structures and algorithms are two important aspects of computer science, and learning them makes you a better developer. It's also what you're tested on in job interviews. \n\n I was carefree the first time I took this course and got a D, but I retook it in the following summer where I got an A. Easy beginning, but when you reach trees and graphs is when it starts to get really hard. Take this course very seriously! \n\n Difficulty: 8 / 10."
     },
     {
         "title": "EECS2021 - Computer Organization",
-        "text": "You'll be learning low level fundamentals like how computers operate and work with assembly languages like RISC-V and Verilog. I've never used RISC-V or Verilog once since I finished the course, so I wouldn't invest too much time in actually mastering these languages (unless you enjoy computer / electrical engineering work, then these languages will come up again). \n\n I did find the course interesting at times, but it also had a heavy workload. The labs can take a really long time to do, and the textbook is practically necessary for this course. \n\n Difficulty: 7 / 10 (largely due to how much work there is, not the course content itself)."
+        "text": "You'll be learning low level fundamentals including how computers operate and work with assembly languages like RISC-V and Verilog. I've never used RISC-V or Verilog since I finished the course, so I wouldn't invest too much time in actually mastering these languages (unless you enjoy computer / electrical engineering work, then these languages will come up again). \n\n I did find the course interesting at times, but it also had a heavy workload. The labs can take a really long time to do, and the textbook is necessary for this course. \n\n Difficulty: 7 / 10 (largely due to how much work there is, not the course content itself)."
     },
     {
         "title": "EECS2030 - Advanced Object Oriented Programming",
-        "text": "One of the most important courses in second year alongside EECS2011. This is a Java course that goes into depth about object oriented programming, an extremely important programming paradigm which you should learn very well. I enjoyed this course a lot, and has a relatively lighter courseload compared to other second year courses. \n\n Difficulty: 4 / 10, though I still suggest putting a significant amount of time into the course because it's arguably one of the most important courses in the degree."
+        "text": "One of the most important courses in second year alongside EECS2011. This is a Java course that goes into depth about object oriented programming, an extremely important programming paradigm which you should learn very well. I enjoyed this course a lot, and has a relatively lighter courseload compared to other second year courses. \n\n Difficulty: 4 / 10 (though I still suggest putting a significant amount of time into the course because it's arguably one of the most important courses in the degree)."
     },
     {
         "title": "EECS2031 - Software Tools",
-        "text": "Your first course using C. I found this course to be hard because I've only used Java and Python, so picking up C was difficult due to it's low level nature. I personally haven't used C since I finished this course (aside from EECS3221), but that's also because I refuse to work a job that uses C. It's up to you if you want to master the language or not, some companies value it more than others. \n\n You'll also be learning Linux commands, Bash scripting, and more. These tools are actually important! In almost every company I worked for, I was using a Linux OS. Navigating your way through a Linux environment and terminal is really important. Most development I do these days involve using a terminal. \n\n Difficulty: 6 / 10. \n\n Resources: you can find a lot on YouTube for learning C. An hour crash course prior to the course starting would be a good idea."
+        "text": "Your first course using C. I found this course to be hard because I've only used Java and Python, so picking up C was difficult. I personally haven't used C since I finished this course (aside from EECS3221), but that's also because I refuse to work a job that uses C. It's up to you if you want to master the language or not, some companies value it more than others. \n\n You'll also be learning Linux commands, Bash scripting, and more. These tools are actually very important! In every company I worked for, I was using a Linux machine. Navigating your way through a Linux environment and terminal is useful. Most development I do these days involve using a terminal. \n\n Difficulty: 6 / 10. \n\n Resources: you can find a lot on YouTube for learning C. An hour crash course prior to the course starting would be a good idea."
     },
     {
-        "title": "MATH1090 - Introduction to Logic for Computer Science",
-        "text": "Successor to EECS1019. I found this course to be much easier. It's still a lot of logic, but much less mathematical and formal. Some chapters can be abstract. \n\n Difficulty: 5 / 10."
+        "title": "MATH1090 - Intro to Logic for Computer Science",
+        "text": "Successor to EECS1019. I found this course to be much easier. Not as many proofs, and it's still a lot of logic (but less mathematical and formal). Some chapters can be abstract. \n\n Difficulty: 5 / 10."
     },
     {
         "title": "MATH2030 - Elementary Probability",
-        "text": "Note: if you're deciding to NOT do your honours (as in, you're opting to do the 90.0 credit degree over the 120.0 credit degree), you don't have to take this course! \n\n I won't be taking this course since I've opted to do the 90.0 credit program, so I don't have a good description of this course. From my friends who have taken this course, they all say it's hard. Probability, math, calculus, and proofs. \n\n Difficulty: 8 / 10."
+        "text": "Note: if you're deciding to NOT do your honours (you're opting to do the 90.0 credit degree over the 120.0 credit degree), you don't have to take this course! \n\n I won't be taking this course since I've opted to do the 90.0 credit program, so I don't have a good description of this course. From my friends who have taken this course, they all say it's hard. Probability, math, calculus, and proofs. \n\n Difficulty: 8 / 10."
     },
     {
         "title": "Electives",
-        "text": "Read my excerpt on electives under year 1. If you didn't take any courses in first year, now would be a good time to knock off a few. \n\n I took MODR1770 6.0 in my second year, got an A, and was an easy and enjoyable course I recommend with Daniel McArthur."
+        "text": "Read my excerpt on electives under year 1. If you didn't take any courses in first year, now would be a good time to knock off a few. \n\n I took MODR1770 6.0 in my second year and got an A. It was an easy and enjoyable course, and I'd recommend taking it with Daniel McArthur."
     }
 ]

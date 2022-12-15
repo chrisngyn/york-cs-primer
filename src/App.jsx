@@ -22,36 +22,39 @@ import Coffee from './strings/coffee.json'
 function App() {
   const root = window.document.documentElement
   root.classList.add('dark')
+
   return (
     <div className='bg-offwhite dark:bg-darkbg'>
       <div className='h-screen w-screen'>
         <DarkMode/>
         <NavBar/>
+
         <div className='flex flex-col items-center lg:absolute lg:left-1/2 lg:right-1/2 lg:top-1/3'>
           <div className='select-none text-center lg:text-left font-couture text-black dark:text-white mt-16 lg:mt-0 lg:absolute lg:mr-10 lg:right-0 animate-fadedown'>
             <a className='text-2xl'>Welcome to the</a> <br/><br/>
             <a className='text-7xl md:text-9xl mt-3 hover:animate-pulse'>LCSUG</a>
             <div className='pr-4 pl-4 lg:p-0'>
-              <a>Lassonde Computer Science Unofficial Guide</a>
+              <a>Lassonde Computer Science (Unofficial) Guide</a>
             </div>
           </div>
           <div className='font-poppins text-center lg:text-left text-black md:text-xl dark:text-white mt-24 lg:mt-0 lg:absolute lg:ml-10 lg:left-0 w-2/3 lg:w-[450px] animate-fadedown'>
             <a>
               <i>IMPORTANT DISCLAIMER</i> <br/><br/>
               This is not an offical website. All content is opinionated, and based on my experiences. <br/><br/>
-              Found this guide useful? Star it on <a style={{color: '#007bff'}} target='_blank' href='https://github.com/chrisngyn/york-cs-primer'>GitHub</a>! Last updated on 09/04/2022.
+              Found this guide useful? Star it on <a style={{color: '#007bff'}} target='_blank' href='https://github.com/chrisngyn/york-cs-primer'>GitHub</a>! Last updated on 12/14/2022.
             </a>
           </div>
         </div>
       </div>
+
       <DownArrow/>
 
-      <div className={`pb-10 bg-offwhite dark:bg-darkbg`}>
+      <div className={'pb-10 bg-offwhite dark:bg-darkbg'}>
         <div className='flex flex-col h-full items-center'>
 
           {/* Section 1 -- Courses */}
 
-          <h2 id='curriculum' className='mt-10 mb-6 dark:text-white font-couture text-center pl-4 pr-4 text-2xl lg:text-3xl'>Computer Science Curriculum</h2>
+          <h2 id='curriculum' className='mt-10 mb-6 dark:text-white font-couture text-center pl-4 pr-4 text-2xl lg:text-3xl'>The Computer Science Curriculum</h2>
           <TextDrop name='1st Year Courses' text={
             YearOne.map((YearOne, key) => {
               return <DoubleDrop key={key} name={YearOne.title} text={YearOne.text} />
@@ -116,7 +119,7 @@ function App() {
                 })
               } />
           })}
-          
+
           {Coffee.map((Coffee, key) => {
             return <TextDrop key={key} name={Coffee.title} text={Coffee.text} />
           })}
