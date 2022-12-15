@@ -10,3 +10,12 @@ Refer to CONTRIBUTING.md. Essentially, I'll be posting GitHub issues overtime ab
 things I want added (e.g. missing course descriptions, UI updates, etc.) and those
 are free to work on. If there's something not listed that you want to see added,
 open an issue.
+
+### Contact
+[Website](https://read.cv/chrisnguyen)  
+
+[GitHub](https://github.com/chrisngyn)  
+
+[LinkedIn](https://www.linkedin.com/in/chrisngyn)  
+
+[Discord](https://discord.gg/x2TMqfwD6V)
