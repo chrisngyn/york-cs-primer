@@ -10,7 +10,7 @@ module.exports = {
         //darkmode textbox
         darkbord: "#172533",
         //darkmode inner box
-        dark2: "#19293b",
+        dark2: "#222F3D",
         //lightmode background
         offwhite: "#f5f2e9",
         //lightmode textbox

@@ -84,28 +84,28 @@ function App() {
 
           {/* Section 2 -- Miscellaneous */}
 
-          <h2 id='misc' className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Miscellaneous and General Tips</h2>
+          <h2 id='misc' className='mt-24 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Miscellaneous and General Tips</h2>
           {MiscText.map((MiscText, key) => {
             return <TextDrop key={key} name={MiscText.title} text={MiscText.text} />
           })}
 
           {/* Section 3 -- Internships */}
 
-          <h2 id='coop' className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Co-op and Internships</h2>
+          <h2 id='coop' className='mt-24 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Co-op and Internships</h2>
           {CoopText.map((CoopText, key) => {
             return <TextDrop key={key} name={CoopText.title} text={CoopText.text} />
           })}
 
           {/* Section 4 -- FAQ */}
 
-          <h2 id='faq' className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Frequently Asked Questions</h2>
+          <h2 id='faq' className='mt-24 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>Frequently Asked Questions</h2>
           {FAQText.map((FAQText, key) => {
             return <TextDrop key={key} name={FAQText.title} text={FAQText.text} />
           })}
 
           {/* Section 5 -- Author */}
 
-          <h2 id='about' className='mt-10 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>About Author</h2>
+          <h2 id='about' className='mt-24 mb-6 dark:text-white font-couture text-center text-2xl pl-4 pr-4 lg:text-3xl'>About Author</h2>
           {AboutText.map((AboutText, key) => {
             return <TextDrop key={key} name={AboutText.title} text={AboutText.text} />
           })}
