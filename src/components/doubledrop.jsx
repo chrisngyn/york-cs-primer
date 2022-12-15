@@ -43,7 +43,7 @@ export default function DoubleDrop(props) {
           <div className='w-[90%] lg:w-90% px-5 dark:text-white text-sm xl:text-xl select-none break-words'>{props.name}</div>
        </div>
         {/* Inner text box text element */}
-        <div ref={ref} className={`${effect ? 'visible' : 'invisible'} pl-5 pr-5 pb-3 text-sm xl:text-lg whitespace-pre-line dark:text-white`}>{props.text}</div>
+        <div ref={ref} className={`${effect ? 'visible' : 'invisible'} pl-5 pr-5 pb-8 text-sm xl:text-lg whitespace-pre-line dark:text-white`}>{props.text}</div>
       </div>
     </div>
   )

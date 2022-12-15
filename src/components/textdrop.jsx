@@ -47,7 +47,7 @@ export default function TextDrop(props) {
         <div className='w-[95%] lg:w-90% px-5 dark:text-white text-sm xl:text-xl select-none break-words'>{props.name}</div>
       </div>
       {/*Outer text box text element*/}
-      <div ref={ref} className={`${effect ? "visible" : "invisible"} pl-5 pr-5 pb-3 overflow-hidden transition-all text-sm xl:text-lg whitespace-pre-line dark:text-white`}>
+      <div ref={ref} className={`${effect ? "visible" : "invisible"} pl-5 pr-5 pb-8 overflow-hidden transition-all text-sm xl:text-lg whitespace-pre-line dark:text-white`}>
         {toggle && (<div className={`${effect ? "visible" : "invisible"} $ text-sm select-none lg:text-lg whitespace-pre-line dark:text-white`}>{props.desc}</div>)}
         {props.text}
       </div>
