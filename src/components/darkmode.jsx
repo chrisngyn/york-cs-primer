@@ -1,7 +1,7 @@
 import React from 'react';
 import light from './../images/light.svg'
 
-export default function NavBar() {
+export default function DarkMode() {
   const root = window.document.documentElement
   var dark = true;
 

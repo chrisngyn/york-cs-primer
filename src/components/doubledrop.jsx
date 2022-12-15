@@ -34,7 +34,7 @@ export default function DoubleDrop(props) {
   return (
     <div className='flex flex-col items-center font-poppins'>
       {/*Inner text box*/}
-      <div style={style} className={`h-24 w-full bg-exgrey relative overflow-clip dark:bg-dark2 mt-5 ease-in-out rounded-lg transition-all`}>
+      <div style={style} className={`h-24 w-full bg-exgrey relative overflow-clip dark:bg-dark2 mb-4 ease-in-out rounded-lg transition-all`}>
           <div className="w-full h-24 opacity-0 absolute z-10 hover:cursor-pointer" onClick={handleClick}></div>
         <div className='flex flex-col col-1 justify-center h-24 w-full'>
           {/*Inner text box down arrow*/}
