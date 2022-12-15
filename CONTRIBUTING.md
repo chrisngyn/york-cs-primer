@@ -11,6 +11,10 @@ One thing I feel that would crop up often is courses changing from when I took t
 If you've taken a course that's radically different from when I took it, you should
 open an issue to let me know!
 
+Also, considering the only time I work on this website is really late at night, I'm
+certain it's riddled with grammar errors everywhere. Feel free to ping me if you see
+there needs to be a correction somewhere.
+
 ### First time setup
 - Ensure you have [Git](https://git-scm.com/downloads) installed on your machine
 - Fork this project to your GitHub account

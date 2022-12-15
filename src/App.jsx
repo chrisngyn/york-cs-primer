@@ -17,7 +17,6 @@ import FAQText from './strings/faq.json'
 import AboutText from './strings/about.json'
 import SumIntro from './strings/summary/intro.json'
 import Summary from './strings/summary/summary.json'
-import Coffee from './strings/coffee.json'
 
 function App() {
   const root = window.document.documentElement
@@ -118,10 +117,6 @@ function App() {
                   return <DoubleDrop key={key} name={Summary.title} text={Summary.text} />
                 })
               } />
-          })}
-
-          {Coffee.map((Coffee, key) => {
-            return <TextDrop key={key} name={Coffee.title} text={Coffee.text} />
           })}
         </div>
       </div>

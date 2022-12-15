@@ -1,18 +1,26 @@
 [
     {
         "title": "What's Co-Op / Internship?",
-        "text": "They mean the same thing. It's just taking time off your degree to work at a company, in a field relevant to your major. For computer science students, you'd often be looking for software engineering internship opportunities."  
+        "text": "They mean the same thing. It's just taking time off your degree to work at a company, in a field relevant to your major. For computer science students, you'd often be looking for software engineering internship opportunities."
     },
     {
         "title": "Why Should You Do Them?",
-        "text": "Graduating without work experience is a death sentence. It's hard, no one will hire you, we're in an oversaturated field, everyone has a CS degree, and you need a way to stand out. Get relevant experience in your undergrad so that when you graduate you have an easier time looking for good jobs. Also, you'll be a better student and developer overall. I learned MUCH more in my software engineering internship than I ever did in my entire degree. To me, I hate academia. I want to graduate and get out of here. I taught myself more than my lectures did, and my internships taught me more and gave me more experience than I could ever ask for. You can also make a lot of money working at large tech companies as an intern, my first internship paid $27, my second paid $24, my third paid $65, my fourth paid $40, and my fifth (and final) internship will be paying $80 an hour."  
+        "text": "Graduating without work experience is a death sentence. It's hard, no one will hire you, we're in an oversaturated field, everyone has a CS degree, and you need a way to stand out. Get relevant experience in your undergrad so that when you graduate you have an easier time looking for good jobs. Also, you'll be a better student and developer overall. I learned MUCH more in my software engineering internship than I ever did in my entire degree. To me, I hate academia. I want to graduate and get out of here. I taught myself more than my lectures did, and my internships taught me more and gave me more experience than I could ever ask for. You can also make a lot of money working at large tech companies as an intern, my first internship paid $27, my second paid $24, my third paid $65, my fourth paid $40, and my fifth (and final) internship will be paying $80 an hour."
     },
     {
         "title": "How Do I Get My First?",
         "text": "Looking for your first is always going to be the hardest. Once you get your first work experience down, you can use that momentum to strengthen your resume and then get your second, third, and fourth work experiences. But the question is - how can I go about getting my first one? Truth is, it's going to be hard, and remember that it's largely a game of chance too. I sent out ~200 applications, and got one job offer from all those applications when applying to my first internship. I would recommend having a strong portfolio of side projects to display on your GitHub, a well-polished LinkedIn, and strong data structure and algorithm skills (practise your LeetCode a lot). It also obviously helps if you know someone that can get you a referral or can get you an interview at the snap of a finger - again going back to my point about making friends. I've had friends refer me to a bunch of companies, and I've gotten a lot of interviews I wouldn't have gotten otherwise without their help. Remember that it is still largely lucked based, so don't feel discouraged if you get nothing after a long and lengthy job hunt. All I have to say is keep applying."
-    }, 
+    },
     {
         "title": "How Do I Find Jobs?",
         "text": "I think the mistake a lot of students make on their first job search is thinking they're limited to the Lassonde job portal (which is not substantial whatsoever) or searching 'Software Engineer Intern' on LinkedIn. There's two important components when job searching: when to search, and how. For SUMMER internships, postings can open as early as July-August the prior year. For FALL internships, postings will open around March-April, and for WINTER internships, postings will be open around September-October. Summer is a very busy season - most companies hire for summer only, and the ones that hire all year, summer has the most headcount. Fall and winter and generally what I call 'dead seasons'. It's possible to get internships for fall and winter, just much harder. The way I apply to jobs is I keep a long list of some 100-200 tech companies, and around when internship season begins, I'll Google search '{company name} careers', go to their careers page, and apply on the company website. Most companies won't be shelling out money to post ads on LinkedIn. They know most people will go to their website to apply, and people do. Depending on the season you're looking for, Google '{season} internships GitHub repo' - there's usually a GitHub repo floating around every season that's updated constantly as internship applications open up. Talk in friend groups. If you have a group of friends and you're all collectively trying to find internships together, make a group chat and post links to new applications you just applied to. Your friends might have applied to a posting you missed, and vice versa."
+    },
+    {
+      "title": "I'm not ready yet!",
+      "text": "suck it up"
+    },
+    {
+      "title": "Chris's Money Crew",
+      "text": ""
     }
 ]
