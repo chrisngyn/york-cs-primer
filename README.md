@@ -6,7 +6,7 @@ This is intended to document all the things I've learned over the years, answers
 bequeath all the things I wish I knew sooner.
 
 ### Contributing
-Refer to CONTRIBUTING.md. Essentially, I'll be posting GitHub issues overtime about things I want added
+Refer to [CONTRIBUTING.md](https://github.com/chrisngyn/york-cs-primer/blob/main/CONTRIBUTING.md). Essentially, I'll be posting GitHub issues overtime about things I want added
 (e.g. missing course descriptions, UI updates, etc.) and those are free to work on. If there's something
 not listed that you want to see added, open an issue.
 
