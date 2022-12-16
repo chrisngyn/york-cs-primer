@@ -16,7 +16,7 @@ export default function DarkMode() {
   }
 
   return (
-    <div className='flex flex-col items-center lg:flex-none'>
+    <div className='flex flex-col items-center lg:flex-none hover:cursor-pointer'>
       <img className='absolute lg:right-0 mt-4 lg:mt-7 lg:mr-10 w-8 h-8 dark:invert' onClick={auto} src={light}></img>
     </div>
   )
