@@ -11,10 +11,10 @@ Refer to [CONTRIBUTING.md](https://github.com/chrisngyn/york-cs-primer/blob/main
 not listed that you want to see added, open an issue.
 
 ### Contact
-[Website](https://read.cv/chrisnguyen)  
-
 [GitHub](https://github.com/chrisngyn)  
 
 [LinkedIn](https://www.linkedin.com/in/chrisngyn)  
+
+[Website](https://chrisnguyen.read.cv)  
 
 [Discord](https://discord.gg/x2TMqfwD6V)
