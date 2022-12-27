@@ -1,6 +1,6 @@
 ## Contributing
-Thank you for contributing to the project! While I can't guarantee your PR will
-be merged, I'm open to reviewing any changes that might improve the website.
+Thank you for contributing to the project! While I can't guarantee your pull request
+will be merged, I'm open to reviewing any changes that might improve the website.
 
 ### What can I work on?
 Most things I need help for (e.g. course descriptions) will be posted in the
